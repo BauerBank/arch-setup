@@ -1,5 +1,6 @@
 #!/bin/bash
-# ubu_movein.sh by antiqua
+# I based my skript on the ubu_movein.sh by antiqua
+# you can get the original here https://forum.ubuntuusers.de/topic/in-shell-skript-wechsel-zwischen-root-und-aktu/
 
 function usage ()
 {
