@@ -6,4 +6,5 @@ pacman -S firefox thunderbird discord teamspeak3 git yay nano base-devel
 #update the AUR
 yay -Syu
 #install packegs from the AUR
-yay -S teams spotify visual-studio-code-bin github-desktop whatsdesk-bin stacer-bin
+yay -S teams visual-studio-code-bin github-desktop-bin whatsdesk-bin stacer-bin spotify
+yay -S spotify
