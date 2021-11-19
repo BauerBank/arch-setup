@@ -59,5 +59,5 @@ sleep 2
 
 su $1 -c " \
 yay -Syu; \
-yay -S teams visual-studio-code-bin github-desktop-bin whatsdesk-bin stacer-bin spotify; \
+yay -S teams visual-studio-code-bin github-desktop-bin whatsdesk-bin stacer-bin onedriver spotify; \
 "
