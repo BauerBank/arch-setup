@@ -48,7 +48,7 @@ sleep 2
 #Update the Pc
 pacman -Syu
 #Install the esiacels from the offical repos
-pacman -S firefox thunderbird discord teamspeak3 git yay nano base-devel
+pacman -S --needed firefox geary discord teamspeak3 git yay nano base-devel curtail deja-dup gnome-extensions gnome-tweaks gparted handbrake htop lutris 
 whoami
 
 # user-stuff to do
@@ -59,5 +59,5 @@ sleep 2
 
 su $1 -c " \
 yay -Syu; \
-yay -S teams visual-studio-code-bin github-desktop-bin whatsdesk-bin stacer-bin onedriver spotify; \
+yay -S teams visual-studio-code-bin github-desktop-bin; \
 "
