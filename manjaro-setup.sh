@@ -59,5 +59,5 @@ sleep 2
 
 su $1 -c " \
 yay -Syu; \
-yay -S --needed teams visual-studio-code-bin github-desktop-bin etcher-bin; \
+yay -S --needed teams visual-studio-code-bin github-desktop-bin etcher-bin tela-circle-icon-theme-git; \
 "
