@@ -48,7 +48,7 @@ sleep 2
 #Update the Pc
 pacman -Syu
 #Install the esiacels from the offical repos
-pacman -S --needed firefox geary discord teamspeak3 git yay nano base-devel curtail deja-dup gnome-extensions gnome-tweaks gparted handbrake htop lutris 
+pacman -S --needed firefox geary discord teamspeak3 git yay nano base-devel curtail deja-dup gnome-extensions gnome-tweaks gparted handbrake htop lutris wireguard-tools
 whoami
 
 # user-stuff to do
