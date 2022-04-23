@@ -61,3 +61,9 @@ su $1 -c " \
 yay -Syu; \
 yay -S --needed teams visual-studio-code-bin github-desktop-bin etcher-bin tela-circle-icon-theme-git; \
 "
+
+# Es empfiehlt sich die folgenden Extensions zu installiern:
+# - AppIndicator and KStatusNotifierItem Support extension
+# - Just Perfection
+# - Net speed Simplified
+# - Sound Input & Output Device Chooser
