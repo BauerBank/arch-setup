@@ -48,7 +48,7 @@ sleep 2
 #Update the Pc
 pacman -Syu
 #Install the esiacels from the offical repos
-pacman -S --needed firefox geary discord teamspeak3 git yay nano base-devel curtail deja-dup gnome-extensions gnome-tweaks gparted handbrake htop lutris wireguard-tools
+pacman -S --needed firefox geary teamspeak3 git yay nano base-devel curtail deja-dup gnome-extensions gnome-tweaks gparted handbrake htop lutris wireguard-tools flatpak
 whoami
 
 # user-stuff to do
@@ -59,7 +59,13 @@ sleep 2
 
 su $1 -c " \
 yay -Syu; \
-yay -S --needed teams visual-studio-code-bin github-desktop-bin etcher-bin tela-circle-icon-theme-git; \
+yay -S --needed teams visual-studio-code-bin github-desktop-bin etcher-bin tela-circle-icon-theme-git touchegg; \
+flatpak install flathub com.github.joseexposito.touche; \
+flatpak install flathub com.spotify.Client; \
+flatpak install flathub org.signal.Signal; \
+flatpak install flathub com.github.eneshecan.WhatsAppForLinux; \
+flatpak install flathub com.discordapp.Discord; \
+flatpak install flathub us.zoom.Zoom; \
 "
 
 # Es empfiehlt sich die folgenden Extensions zu installiern:
