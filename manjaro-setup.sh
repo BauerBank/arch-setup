@@ -77,3 +77,6 @@ flatpak install flathub us.zoom.Zoom; \
 #Bluetooth on Arch:
 #Öffne dieses File: sudo nano /etc/bluetooth/main.conf
 #Stelle AutoConnect auf true und lass die Kommentierung weg
+#Einstellung ControllerMode in dual
+
+#LibreOffice Spellcheck: https://wiki.archlinux.org/title/LibreOffice#Language_aids
