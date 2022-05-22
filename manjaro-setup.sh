@@ -73,3 +73,7 @@ flatpak install flathub us.zoom.Zoom; \
 # - Just Perfection
 # - Net speed Simplified
 # - Sound Input & Output Device Chooser
+
+#Bluetooth on Arch:
+#Öffne dieses File: sudo nano /etc/bluetooth/main.conf
+#Stelle AutoConnect auf true und lass die Kommentierung weg
