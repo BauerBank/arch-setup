@@ -73,6 +73,9 @@ flatpak install flathub us.zoom.Zoom; \
 # - Just Perfection
 # - Net speed Simplified
 # - Sound Input & Output Device Chooser
+# - Bing Wallpaper
+# - Status Area Horizontal Spacing
+# - Hibernate Status Button
 
 #Bluetooth on Arch:
 #Öffne dieses File: sudo nano /etc/bluetooth/main.conf
