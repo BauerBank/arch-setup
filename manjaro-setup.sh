@@ -83,3 +83,4 @@ flatpak install flathub us.zoom.Zoom; \
 #Einstellung ControllerMode in dual
 
 #LibreOffice Spellcheck: https://wiki.archlinux.org/title/LibreOffice#Language_aids
+#Serial port group uucp https://bbs.archlinux.org/viewtopic.php?id=222093
