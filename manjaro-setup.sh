@@ -82,5 +82,9 @@ flatpak install flathub us.zoom.Zoom; \
 #Stelle AutoConnect auf true und lass die Kommentierung weg
 #Einstellung ControllerMode in dual
 
+#https://lavendthomas.github.io/p#st/create-usb-serial-file-arch-linux/
+#sudo mknod /dev/ttyUSB0 c 118 0
+#sudo mknod /dev/ttyUSB1 c 118 1
+
 #LibreOffice Spellcheck: https://wiki.archlinux.org/title/LibreOffice#Language_aids
 #Serial port group uucp https://bbs.archlinux.org/viewtopic.php?id=222093
