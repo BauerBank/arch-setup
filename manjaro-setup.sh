@@ -82,6 +82,7 @@ flatpak install flathub us.zoom.Zoom; \
 #Stelle AutoConnect auf true und lass die Kommentierung weg
 #Einstellung ControllerMode in dual
 
+#Serial usb device
 #https://lavendthomas.github.io/p#st/create-usb-serial-file-arch-linux/
 #sudo mknod /dev/ttyUSB0 c 118 0
 #sudo mknod /dev/ttyUSB1 c 118 1
