@@ -83,10 +83,17 @@ flatpak install flathub us.zoom.Zoom; \
 #Einstellung ControllerMode in bredr for airpods
 #https://www.reddit.com/r/Ubuntu/comments/kxujrc/bluetoothairpods_connection_issue/
 
+#Bash castemize:
+#Synth-shell
+#https://github.com/andresgongora/synth-shell
+#config is in ~/.config/synth-shell/
+#color cheatseaht: https://www.ditig.com/256-colors-cheat-sheet
+#YT: https://www.youtube.com/watch?v=jS-QZKjAd-U
+
 #Serial usb device
 #https://lavendthomas.github.io/p#st/create-usb-serial-file-arch-linux/
 #sudo mknod /dev/ttyUSB0 c 118 0
 #sudo mknod /dev/ttyUSB1 c 118 1
+#Serial port group uucp https://bbs.archlinux.org/viewtopic.php?id=222093
 
 #LibreOffice Spellcheck: https://wiki.archlinux.org/title/LibreOffice#Language_aids
-#Serial port group uucp https://bbs.archlinux.org/viewtopic.php?id=222093
