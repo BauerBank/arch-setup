@@ -80,7 +80,8 @@ flatpak install flathub us.zoom.Zoom; \
 #Bluetooth on Arch:
 #Öffne dieses File: sudo nano /etc/bluetooth/main.conf
 #Stelle AutoConnect auf true und lass die Kommentierung weg
-#Einstellung ControllerMode in dual
+#Einstellung ControllerMode in bredr for airpods
+#https://www.reddit.com/r/Ubuntu/comments/kxujrc/bluetoothairpods_connection_issue/
 
 #Serial usb device
 #https://lavendthomas.github.io/p#st/create-usb-serial-file-arch-linux/
