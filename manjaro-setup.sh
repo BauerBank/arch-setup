@@ -76,6 +76,7 @@ flatpak install flathub us.zoom.Zoom; \
 # - Bing Wallpaper
 # - Status Area Horizontal Spacing
 # - Hibernate Status Button
+# - X11 Gestures
 
 #Bluetooth on Arch:
 #Öffne dieses File: sudo nano /etc/bluetooth/main.conf
@@ -97,3 +98,19 @@ flatpak install flathub us.zoom.Zoom; \
 #Serial port group uucp https://bbs.archlinux.org/viewtopic.php?id=222093
 
 #LibreOffice Spellcheck: https://wiki.archlinux.org/title/LibreOffice#Language_aids
+
+#GNOME-gestures:
+#if using X11 not wayland
+#you need touchegg from the aur
+#than you need to enable and start the touchegg service
+#sudo systemctl enable touchegg.service
+#sudo systemctl start touchegg
+#last you have to add the x11 gestures extension
+#https://bbs.archlinux.org/viewtopic.php?id=265360
+#if you like you can add more gestures with the gui apk touche from flathub
+
+
+
+
+
+
