@@ -77,12 +77,18 @@ flatpak install flathub us.zoom.Zoom; \
 # - Status Area Horizontal Spacing
 # - Hibernate Status Button
 # - X11 Gestures
+# - WireGuard Indicator 
 
 #Bluetooth on Arch:
 #Öffne dieses File: sudo nano /etc/bluetooth/main.conf
 #Stelle AutoConnect auf true und lass die Kommentierung weg
 #Einstellung ControllerMode in bredr for airpods
 #https://www.reddit.com/r/Ubuntu/comments/kxujrc/bluetoothairpods_connection_issue/
+
+#VPN:
+#for vpnc: https://askubuntu.com/questions/1403896/cant-add-cisco-compatible-vpn-vpnc-on-network-manager-ubuntu-22-04/1404609#1404609
+#for wireguard: https://wiki.lucabauer.de/doku.php?id=tut:wireguard
+#and if you want install WireGuard Indicator 
 
 #Bash castemize:
 #Synth-shell
