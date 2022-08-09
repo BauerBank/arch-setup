@@ -48,7 +48,7 @@ sleep 2
 #Update the Pc
 pacman -Syu
 #Install the esiacels from the offical repos
-pacman -S firefox thunderbird discord teamspeak3 git yay nano base-devel
+pacman -S -needed firefox thunderbird discord teamspeak3 git yay nano base-devel
 whoami
 
 # user-stuff to do
