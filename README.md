@@ -8,7 +8,7 @@ Thanks to Antiqua from the ubuntuuser forum. I copied his base skript. You can f
 ## How to use
 To start enter:
 
-<code>chmod u+x manjaro-setup.sh</code>
+<code>chmod u+x arch-setup.sh</code>
 
 and than execute it:
 
