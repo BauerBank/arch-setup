@@ -12,7 +12,7 @@ To start enter:
 
 and than execute it:
 
-<code>sudo ./manjaro-setup.sh user<code>
+<code>sudo ./manjaro-setup.sh user</code>
 
 
 for user you have the fill in your corrent user to do the stuff you dont whant to do es a root user. For me it is the AUR part
