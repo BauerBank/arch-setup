@@ -49,11 +49,6 @@ sleep 2
 pacman -Syu
 #Install the esiacels from the offical repos
 pacman -S -needed firefox thunderbird teamspeak3 git nano base-devel htop
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-cd ..
-rm -r yay
 whoami
 
 # user-stuff to do
@@ -63,6 +58,11 @@ echo "====="
 sleep 2 
 
 su $1 -c " \
+git clone https://aur.archlinux.org/yay.git; \
+cd yay; \
+makepkg -si; \
+cd ..; \
+rm -r yay; \
 yay -Syu; \
 yay -S teams visual-studio-code-bin github-desktop-bin whatsdesk-bin; \
 flatpak install flathub com.spotify.Client com.microsoft.Teams org.signal.Signal com.discordapp.Discord us.zoom.Zoom; \
