@@ -48,7 +48,7 @@ sleep 2
 #Update the Pc
 pacman -Syu
 #Install the esiacels from the offical repos
-pacman -S --needed firefox geary teamspeak3 git yay nano base-devel curtail deja-dup gnome-extensions gnome-tweaks gparted handbrake htop lutris wireguard-tools flatpak gnome-todo
+pacman -S --needed firefox geary teamspeak3 git yay nano base-devel curtail deja-dup gnome-extensions gnome-tweaks gparted handbrake htop lutris wireguard-tools flatpak gnome-todo gnome-themes-extra
 whoami
 
 # user-stuff to do
@@ -114,6 +114,8 @@ flatpak install flathub us.zoom.Zoom; \
 #last you have to add the x11 gestures extension
 #https://bbs.archlinux.org/viewtopic.php?id=265360
 #if you like you can add more gestures with the gui apk touche from flathub
+
+#nvidia 32 bit support install lib32-nvidia-utils
 
 
 
