@@ -115,7 +115,7 @@ flatpak install flathub us.zoom.Zoom; \
 #https://bbs.archlinux.org/viewtopic.php?id=265360
 #if you like you can add more gestures with the gui apk touche from flathub
 
-
+#nvidia 32 bit support install lib32-nvidia-utils
 
 
 
