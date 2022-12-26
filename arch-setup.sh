@@ -84,6 +84,7 @@ flatpak install flathub us.zoom.Zoom; \
 #Stelle AutoConnect auf true und lass die Kommentierung weg
 #Einstellung ControllerMode in bredr for airpods
 #https://www.reddit.com/r/Ubuntu/comments/kxujrc/bluetoothairpods_connection_issue/
+#für bluetooth low energy "sudo btmgmt le on" eingeben
 
 #VPN:
 #for vpnc: https://askubuntu.com/questions/1403896/cant-add-cisco-compatible-vpn-vpnc-on-network-manager-ubuntu-22-04/1404609#1404609
@@ -117,6 +118,9 @@ flatpak install flathub us.zoom.Zoom; \
 
 #nvidia driver instalation:
 #sudo pacman -S --needed nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader linux-headers
+
+#battery laptop
+#command für akku deteils und optionenen: "sudo tlp-stat -b"
 
 
 
