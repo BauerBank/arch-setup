@@ -124,4 +124,4 @@ flatpak install flathub us.zoom.Zoom; \
 
 #ethernet dongle laptop install Dhcpcd see https://wiki.archlinux.org/title/Dhcpcd
 
-
+#install reflector for faster updates https://wiki.archlinux.de/title/Reflector
