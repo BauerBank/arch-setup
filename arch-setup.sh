@@ -122,6 +122,6 @@ flatpak install flathub us.zoom.Zoom; \
 #battery laptop
 #command für akku deteils und optionenen: "sudo tlp-stat -b"
 
-#ethernet dongle laptop install ifplugd see https://wiki.archlinux.org/title/Network_configuration/Ethernet
+#ethernet dongle laptop install Dhcpcd see https://wiki.archlinux.org/title/Dhcpcd
 
 
