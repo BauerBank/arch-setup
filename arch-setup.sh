@@ -59,7 +59,7 @@ sleep 2
 
 su $1 -c " \
 yay -Syu; \
-yay -S --needed teams visual-studio-code-bin github-desktop-bin etcher-bin tela-circle-icon-theme-git touchegg ccstudio cutecom gnome-browser-connector; \
+yay -S --needed teams visual-studio-code-bin github-desktop-bin etcher-bin tela-circle-icon-theme-git touchegg ccstudio cutecom gnome-browser-connector xpadneo-dkms-git; \
 flatpak install flathub com.github.joseexposito.touche; \
 flatpak install flathub com.spotify.Client; \
 flatpak install flathub org.signal.Signal; \
