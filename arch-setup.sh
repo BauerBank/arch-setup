@@ -59,7 +59,7 @@ sleep 2
 
 su $1 -c " \
 yay -Syu; \
-yay -S --needed teams visual-studio-code-bin github-desktop-bin etcher-bin tela-circle-icon-theme-git touchegg ccstudio cutecom gnome-browser-connector; \
+yay -S --needed teams visual-studio-code-bin github-desktop-bin etcher-bin tela-circle-icon-theme-git touchegg ccstudio cutecom gnome-browser-connector xpadneo-dkms-git; \
 flatpak install flathub com.github.joseexposito.touche; \
 flatpak install flathub com.spotify.Client; \
 flatpak install flathub org.signal.Signal; \
@@ -84,6 +84,7 @@ flatpak install flathub us.zoom.Zoom; \
 #Stelle AutoConnect auf true und lass die Kommentierung weg
 #Einstellung ControllerMode in bredr for airpods
 #https://www.reddit.com/r/Ubuntu/comments/kxujrc/bluetoothairpods_connection_issue/
+#für bluetooth low energy "sudo btmgmt le on" eingeben
 
 #VPN:
 #for vpnc: https://askubuntu.com/questions/1403896/cant-add-cisco-compatible-vpn-vpnc-on-network-manager-ubuntu-22-04/1404609#1404609
@@ -117,8 +118,12 @@ flatpak install flathub us.zoom.Zoom; \
 
 #nvidia 32 bit support install lib32-nvidia-utils
 
+#nvidia driver instalation:
+#sudo pacman -S --needed nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader linux-headers
 
+#battery laptop
+#command für akku deteils und optionenen: "sudo tlp-stat -b"
 
+#ethernet dongle laptop install Dhcpcd see https://wiki.archlinux.org/title/Dhcpcd
 
-
-
+#install reflector for faster updates https://wiki.archlinux.de/title/Reflector
